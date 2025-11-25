@@ -1,0 +1,5 @@
+#home {
+  position: relative;
+  background: url("images/home.jpg") center/cover no-repeat fixed;
+  height: 100vh;
+}
