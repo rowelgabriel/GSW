@@ -128,3 +128,30 @@ var p_data = [
     "stats": "https://www.nba.com/stats/player/1630228"
   },
 ]
+
+var po_data = [
+  {
+    "image": "images/nuggets.jpg",
+    "desc": "The Warriors opened their postseason by beating the Nuggets in five games, using strong defensive energy and balanced scoring to reestablish themselves as championship contenders."
+  },
+  {
+    "image": "images/grizzlies.jpg",
+    "desc": "Golden State advanced past the Grizzlies in six games, relying on disciplined defense, timely shooting, veteran poise, and resilient execution to withstand Memphis’s physicality throughout."
+  },
+  {
+    "image": "images/mavs.jpg",
+    "desc": "The Warriors defeated the Mavericks in five games, executing a focused defensive plan on Luka Dončić and maintaining steady ball movement to consistently control momentum."
+  },
+  {
+    "image": "images/west.jpg",
+    "desc": "Golden State secured the Western Conference title by combining sharp defense, deep bench contributions, disciplined execution, and steady composure to dictate tempo and maintain control."
+  },
+  {
+    "image": "images/celtics.jpg",
+    "desc": "The Warriors battled the Celtics in the NBA Finals, relying on Stephen Curry’s shot-making, defensive adjustments, and improved ball security to counter Boston’s consistent pressure."
+  },
+  {
+    "image": "images/champ.jpg",
+    "desc": "Golden State clinched the championship by finishing the Celtics in six games, using resilient defense, timely scoring, veteran composure, and collective discipline to reclaim status."
+  }
+]
