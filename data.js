@@ -13,7 +13,7 @@ var p_data = [
     "position": "Shooting Guard",
     "height": "195 cm",
     "image": "images/lee.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/1627814"
   },
   {
     "name": "Chris Chiozza",
@@ -21,7 +21,7 @@ var p_data = [
     "position": "Point Guard",
     "height": "183 cm",
     "image": "images/chiozza.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/1629185"
   },
   {
     "name": "Jordan Poole",
@@ -29,7 +29,7 @@ var p_data = [
     "position": "Shooting Guard",
     "height": "193 cm",
     "image": "images/poole.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/1629673"
   },
   {
     "name": "Moses Moody",
@@ -37,7 +37,7 @@ var p_data = [
     "position": "Shooting Guard",
     "height": "196 cm",
     "image": "images/moody.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/1630541"
   },
   {
     "name": "Kevon Looney",
@@ -45,7 +45,7 @@ var p_data = [
     "position": "Center",
     "height": "206 cm",
     "image": "images/looney.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/1626172"
   },
   {
     "name": "Nemanja Bjelica",
@@ -53,7 +53,7 @@ var p_data = [
     "position": "Small Forward",
     "height": "209 cm",
     "image": "images/bjelica.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/202357"
   },
   {
     "name": "Andre Iguodala",
@@ -61,7 +61,7 @@ var p_data = [
     "position": "Small Forward",
     "height": "198 cm",
     "image": "images/iguodala.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/2738"
   },
   {
     "name": "Klay Thompson",
@@ -69,7 +69,7 @@ var p_data = [
     "position": "Shooting Guard",
     "height": "196 cm",
     "image": "images/thompson.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/202691"
   },
   {
     "name": "Andrew Wiggins",
@@ -77,7 +77,7 @@ var p_data = [
     "position": "Small Forward",
     "height": "201 cm",
     "image": "images/wiggins.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/203952"
   },
   {
     "name": "Draymond Green",
@@ -85,7 +85,7 @@ var p_data = [
     "position": "Power Forward",
     "height": "198 cm",
     "image": "images/green.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/203110"
   },
   {
     "name": "Stephen Curry",
@@ -101,7 +101,7 @@ var p_data = [
     "position": "Power Forward",
     "height": "203 cm",
     "image": "images/porter.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/203490"
   },
   {
     "name": "James Wiseman",
@@ -109,7 +109,7 @@ var p_data = [
     "position": "Center",
     "height": "211 cm",
     "image": "images/wiseman.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/1630164"
   },
   {
     "name": "Juan Toscano-Anderson",
@@ -117,7 +117,7 @@ var p_data = [
     "position": "Power Forward",
     "height": "198 cm",
     "image": "images/toscano.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/1629308"
   },
   {
     "name": "Jonathan Kuminga",
@@ -125,6 +125,6 @@ var p_data = [
     "position": "Power Forward",
     "height": "201 cm",
     "image": "images/kuminga.jpg",
-    "stats": "https://www.nba.com/stats/player/201939"
+    "stats": "https://www.nba.com/stats/player/1630228"
   },
 ]
