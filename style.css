@@ -3,3 +3,12 @@
   background: url("images/home.jpg") center/cover no-repeat fixed;
   height: 100vh;
 }
+
+.stats-btn {
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.stats-btn:hover {
+  background-color: white;
+  color: #0d6efd;
+}
