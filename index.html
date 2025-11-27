@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="body">
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg bg-light shadow-sm fixed-top px-sm-3 px-1 py-2">
+  <nav id="navbar" class="navbar navbar-expand-lg bg-light shadow-sm fixed-top px-sm-3 px-1 py-2">
     <div class="container-fluid">
       <div class="navbar-brand fw-bold text-primary">
         <img class="me-1 align-text-top" src="images/gsw-logo.png" height="30">
@@ -24,7 +24,7 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <button class="btn btn-outline-dark border-2 ms-2 d-lg-none" id="theme-button">
+      <button class="btn btn-outline-dark border-2 ms-2 d-lg-none theme-button" onclick="changeTheme()">
         <i class="bi bi-moon-fill"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -46,7 +46,7 @@
           </li>
         </ul>
       </div>
-      <button class="btn btn-outline-dark border-2 ms-2 d-none d-lg-inline-block" id="theme-button">
+      <button class="btn btn-outline-dark border-2 ms-2 d-none d-lg-inline-block theme-button" onclick="changeTheme()">
         <i class="bi bi-moon-fill"></i>
       </button>
     </div>
@@ -87,7 +87,7 @@
   </section>
 
   <footer>
-    <div class="container-fluid bg-light py-2">
+    <div id="footer" class="container-fluid bg-light py-2">
       <div class="row">
         <div class="col fw-semibold text-center my-2 align-items-center">
           <p>
@@ -101,6 +101,7 @@
 
   <script src="data.js"></script>
   <script src="loop.js"></script>
+  <script src="theme.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
