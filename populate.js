@@ -3,15 +3,15 @@ var players = document.getElementById("players");
 for (var i = 0; i < p_data.length; i++) {
   players.innerHTML +=
     `
-    <div class="col-12 col-md-6 col-lg-4 col-xl-3 px-4 px-md-3">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
       <div class="card shadow h-100">
         <img src="`+ p_data[i].image + `" class="card-img-top p-2">
         <div class="card-body d-flex flex-column">
-          <h5 class="card-title fw-semibold text-center">`+ p_data[i].name + `</h5>
-          <p class="card-text mb-2 mx-2">Jersey Number: `+ p_data[i].number + `</p>
-          <p class="card-text mb-2 mx-2">Position: `+ p_data[i].position + `</p>
-          <p class="card-text mx-2">Height: `+ p_data[i].height + `</p>
-          <a href="`+ p_data[i].stats + `" class="btn btn-primary rounded border-2 stats-btn" target="_blank">
+          <div class="card-title h5 fw-semibold text-center">`+ p_data[i].name + `</div>
+          <div class="card-text mb-2 mx-2">Jersey Number: `+ p_data[i].number + `</div>
+          <div class="card-text mb-2 mx-2">Position: `+ p_data[i].position + `</div>
+          <div class="card-text mb-3 mx-2">Height: `+ p_data[i].height + `</div>
+          <a href="`+ p_data[i].stats + `" class="btn btn-primary rounded border-2" target="_blank">
             View Stats<i class="bi bi-clipboard-data ms-2"></i>
           </a>
         </div>
@@ -29,9 +29,9 @@ for (var i = 0; i < po_data.length; i++) {
        <div class="card shadow h-100">
          <img src="`+ po_data[i].image + `" class="p-2">
          <div class="card-body">
-           <p class="card-text px-2" style="text-align:justify;">
+           <div class="card-text px-2" style="text-align:justify;">
              `+ po_data[i].desc + `
-           </p>
+           </div>
          </div>
        </div>
     </div>

@@ -5,20 +5,3 @@
   background-position: center;
   height: 100vh;
 }
-
-.stats-btn {
-  transition: background-color 0.4s, color 0.4s;
-}
-
-.stats-btn:hover {
-  background-color: white;
-  color: #0d6efd;
-}
-
-.card {
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
