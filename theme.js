@@ -7,12 +7,22 @@ var themeButtons = document.querySelectorAll(".theme-button");
 var cards = document.querySelectorAll(".card");
 var statsButtons = document.querySelectorAll("#players .btn");
 var navbarBrand = document.querySelector(".navbar-brand");
+var homeTitle = document.getElementById("home-title");
+var homeButton = document.getElementById("home-btn");
 
 function changeTheme() {
   theme = theme === "light" ? "dark" : "light";
   body.setAttribute("data-bs-theme", theme);
 
   if (theme === "dark") {
+    homeTitle.classList.remove("text-light");
+    homeTitle.style.color = "#1a1a1a";
+    homeTitle.style.webkitTextStroke = "0.4px #e6e6e6";
+
+    homeButton.style.backgroundColor = "#121212";
+    homeButton.style.color = "#e6e6e6";
+    homeButton.style.borderColor = "#3a3a3a";
+
     body.style.backgroundColor = "#1a1a1a";
     body.style.color = "white";
 
@@ -49,6 +59,14 @@ function changeTheme() {
     });
 
   } else {
+    homeTitle.classList.add("text-light");
+    homeTitle.style.color = "";
+    homeTitle.style.webkitTextStroke = "";
+
+    homeButton.style.backgroundColor = "";
+    homeButton.style.color = "";
+    homeButton.style.borderColor = "";
+
     body.style.backgroundColor = "white";
     body.style.color = "black";
 
